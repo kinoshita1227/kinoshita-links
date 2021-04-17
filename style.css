@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    width: 100%;
+    margin: 0;
+    font-family: "BIZ UD P ゴシック","Meiryo", "メイリオ";
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin:0;
+    color: white;
+}
+.header {
+    width:100%;
+    background-color:black;
+    position:relative;
+    top: 0;
+}
+.description {
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.linksBotton {
+    text-align: center;
+    line-height: 2;
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin:0 auto;
+    top: 50%;
+}
+a {
+    color: #fff;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin:0 auto;
+}
+.link {
+    position:relative;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 100px;
+    transition: .4s;
+    line-height: 100px;
+    margin:0 auto;
+}
+.link:hover {
+    background: #67c5ff;
+    color: white;
+}
+.footer {
+    position:absolute;
+    bottom:0px;
+}
